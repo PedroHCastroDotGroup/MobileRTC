@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '12.0'
 
     # s.source       = { :git => "https://github.com/PedroHCastroDotGroup/ZoomSDK.git", :tag => "v#{s.version}" }
-    s.source       = { :git => 'https://falsosource.com/falso.git', :tag => s.version.to_s }
+    s.source       = { :git => 'https://github.com/PedroHCastroDotGroup/MobileRTC', :tag => s.version.to_s }
 
 
   
