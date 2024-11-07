@@ -15,7 +15,9 @@ Pod::Spec.new do |s|
 
   
     # Declara o .xcframework para diferentes arquiteturas
-    s.vendored_frameworks = './MobileRTC.xcframework'
+    s.source_files           = "MobileRTC.xcframework/**/MobileRTC.framework/Headers/**/*.{h,m}"
+    s.public_header_files    = "MobileRTC.xcframework/**/MobileRTC.framework/Headers/**/*.{h,m}"
+    s.vendored_frameworks = 'MobileRTC.xcframework'
   
     # Assegura que o CocoaPods use as configurações corretas de compilação
     s.pod_target_xcconfig = {
