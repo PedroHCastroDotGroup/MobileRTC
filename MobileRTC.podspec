@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'MobileRTC'
-    s.version      = '1.0.0'
+    s.version      = '1.0.1'
     s.summary      = 'Integração do MobileRTC para iOS.'
     s.description  = 'MobileRTC SDK fornece funcionalidade de reunião de vídeo e áudio.'
     s.homepage     = 'https://seusite.com'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '12.0'
 
     # s.source       = { :git => "https://github.com/PedroHCastroDotGroup/ZoomSDK.git", :tag => "v#{s.version}" }
-    s.source       = { :git => 'https://github.com/PedroHCastroDotGroup/MobileRTC', :tag => s.version.to_s }
+    s.source       = { :git => 'https://github.com/PedroHCastroDotGroup/MobileRTC.git', :tag => s.version.to_s }
 
 
   
