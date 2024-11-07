@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'MobileRTC'
-    s.version      = '1.0.2'
+    s.version      = '1.0.1'
     s.summary      = 'Integração do MobileRTC para iOS.'
     s.description  = 'MobileRTC SDK fornece funcionalidade de reunião de vídeo e áudio.'
     s.homepage     = 'https://seusite.com'
