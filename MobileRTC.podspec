@@ -18,6 +18,9 @@ Pod::Spec.new do |s|
     s.source_files           = "MobileRTC.xcframework/**/MobileRTC.framework/Headers/**/*.{h,m}"
     s.public_header_files    = "MobileRTC.xcframework/**/MobileRTC.framework/Headers/**/*.{h,m}"
     s.vendored_frameworks = 'MobileRTC.xcframework'
+
+    s.libraries = "z", "c++", "sqlite3"
+    s.frameworks = "Foundation", "UIKit", "VideoToolbox", "CoreBluetooth", "ReplayKit", "CoreMotion"
   
     # Assegura que o CocoaPods use as configurações corretas de compilação
     s.pod_target_xcconfig = {
